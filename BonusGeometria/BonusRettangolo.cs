@@ -48,14 +48,15 @@ namespace BonusGeometria
             {
                 for (int j = 1; j <= altezzaRettangolo; j++)
                 {
-                    if (i == 1 || i == baseRettangolo )
+                    if (i == 1 || i == baseRettangolo)  
                     {
                         Console.Write("-");
-                    } else if (j== 1 || j == altezzaRettangolo)
-                    { Console.WriteLine("|"); }
-                    else 
+                    } else if (j == 1 || j == altezzaRettangolo)
                     {
-                        Console.Write(" ");
+                        Console.WriteLine("|");
+                    }else 
+                    {
+                        Console.Write("");
                     }
                 }
                 Console.Write("\n ");
